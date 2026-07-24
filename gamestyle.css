@@ -9,6 +9,7 @@
 body{
     position: relative;
     background-image: url(assets/bg2.png);
+    touch-action: pan-x pan-y; 
 }
 
 :root{
