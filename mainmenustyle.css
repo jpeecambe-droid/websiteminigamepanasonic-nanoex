@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    aspect-ratio: 4 / 6;
     touch-action: pan-x pan-y; 
 }
 
