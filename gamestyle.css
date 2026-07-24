@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    position: relative;
+    background-image: url(assets/bg2.png);
+}
+
+:root{
+    --bgimg: url(assets/Portrait.png);
+}
+
+.gamespace{
+    position: fixed;
+    overflow: hidden;
+    background-image: var(--bgimg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid darkblue;
+    border-radius: 8px;
+    width: 90%;
+    height: 80%;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.germ1{
+    background-image: url(./assets/virus.png);
+    background-size: contain;
+    margin: auto;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.germ2{
+    background-image: url(./assets/bacteria.png);
+    background-size: contain;
+    margin: auto;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.germ3{
+    background-image: url(./assets/mold.png);
+    background-size: contain;
+    margin: auto;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: fixed;
+    text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+    top: 88%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+.scorebg{
+    Position: fixed;
+    height: 100px;
+    width: auto;
+    top: 87%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    Position: fixed;
+    text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.timer img{
+    Position: fixed;
+    height: 100px;
+    width: auto;
+}
+
+.backarrow{
+    Position: fixed;
+    top: 88%;
+    left: 30%;
+    height: 100px;
+    width: auto;
+    transform: translate(-50%,-50%) scale(1);
+    cursor: pointer;
+}
+
+
+.backarrow:active{
+    Position: fixed;
+    top: 88%;
+    left: 30%;
+    height: 100px;
+    width: auto;
+    transform: translate(-50%,-50%) scale(0.9);
+}
+
+.Nanoex{
+    z-index: 10;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 15%;
+    width: auto;
+}
+
+.countdown {
+    border-radius: 10px;
+    color: white;
+    display: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
+    position: fixed;
+    left: 50%;  
+    top: 40%;   
+    transform: translate(-50%,-50%) scale(1);  
+}
+
+.victoryscreen{
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 110%;
+    height: auto;
+}
+
+.grandvictory{
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 250%;
+    height: auto;
+}
+
+.timesup{
+    z-index: 10;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    width: 120%;
+    height: auto;
+}

@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: fixed;
+    background-size: cover;
+    background-image: url(assets/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.settings{
+    background-image: url(assets/bg1.png) ;
+    height:600px;
+    width: 800px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid blue 5px;
+    border-radius: 2px;
+}
+
+
+.backarrow{
+    height: 100px;
+    width: auto;
+    position: fixed;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%,-50%) scale(1);
+    cursor: pointer;
+}
+
+
+.backarrow:active{
+    position: fixed;
+    transform: translate(-50%,-50%) scale(0.9);
+    cursor: pointer;
+}
+
+.orientation{
+    background-color: rgb(255 255 255 / 50%);
+    border-radius: 10px;
+    width: 80px;
+    height: auto;
+    position: fixed;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%) scale(1);  
+    cursor: pointer;
+
+}
+
+.orientation:active{
+    transform: translate(-50%, -50%) scale(0.9);  
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.OrientationPortrait{
+    display: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 70%;
+    left: 31%;
+    cursor: pointer;
+}
+
+.OrientationLandscape{
+    display: flex;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 70%;
+    left: 34%;
+    cursor: pointer;
+}
+
+
+.Orientation{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%,-50%); 
+    position: fixed;
+    top: 70%;
+    left: 13%;
+}
+
+.grandvictory{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    white-space: nowrap;
+    transform: translate(-50%, -47%); 
+    position: fixed;
+    top: 30%;
+    left: 32%;
+}
+
+.grandvictoryscore{
+    color: white;
+    background-color: rgb(255 255 255 / 50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    border: 2px solid grey; 
+    transform: translate(-50%, -50%); 
+    position: fixed;
+    top: 30%;
+    left: 80%;
+}
+
+.victory{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%, -50%) scale(1); 
+    position: fixed;
+    top: 10%;
+    left: 26%;
+}
+
+.victoryscore{
+    color: white;
+    background-color: rgb(255 255 255 / 50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    border: 2px solid grey; 
+    transform: translate(-50%, -50%) scale(1); 
+    position: fixed;
+    top: 10%;
+    left: 80%;
+}
+
+.victoryadd{
+    z-index: 20;
+    height: 75px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 10%;
+    left: 70%;
+    cursor: pointer;
+}
+
+.victoryadd:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.victorysub{
+    z-index: 20;
+    height: 60px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 10%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.victorysub:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.grandvictoryadd{
+    z-index: 20;
+    height: 75px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 30%;
+    left: 70%;
+    cursor: pointer;
+}
+
+.grandvictoryadd:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.grandvictorysub{
+    z-index: 20;
+    height: 60px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 30%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.grandvictorysub:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.clearstorage{
+    transform: translate(-50%,-50%) scale(1);
+    height: 300px;
+    position: fixed;
+    top: 85%;
+    left: 70%;
+
+}
+
+.clearstorage:active{
+    transform: translate(-50%,-50%) scale(0.9);
+}
+
+.clearstoragetxt{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    padding: 25px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%,-50%); 
+    display: none;
+    position: fixed;
+    top: 85%;
+    left: 70%;
+    white-space: nowrap;
+}
+
+.time{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    transform: translate(-50%, -50%); 
+    position: fixed;
+    top: 50%;
+    left: 12%;
+}
+
+.timeadd{
+    z-index: 20;
+    height: 75px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 50%;
+    left: 70%;
+    cursor: pointer;
+}
+
+.timeadd:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.timesub{
+    z-index: 20;
+    height: 60px;
+    width: auto; 
+    transform: translate(-50%, -50%) scale(1);
+    position: fixed;
+    top: 50%;
+    left: 90%;
+    cursor: pointer;
+}
+
+.timesub:active{
+    transform: translate(-50%, -50%) scale(0.9); 
+    cursor: pointer;
+}
+
+.timelimit{
+    color: white;
+    background-color: rgb(255 255 255 / 50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    text-shadow: 
+    -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px  2px 0 #000,
+    2px  2px 0 #000;
+    border: 2px solid grey; 
+    transform: translate(-50%, -50%) scale(1); 
+    position: fixed;
+    top: 50%;
+    left: 80%;
+}
