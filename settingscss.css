@@ -10,7 +10,6 @@ body{
     background-image: url(assets/bg2.png);
     background-repeat: no-repeat;
     background-position: center;
-    aspect-ratio: 4 / 6;
     background-attachment: fixed;
     touch-action: pan-x pan-y; 
 }
