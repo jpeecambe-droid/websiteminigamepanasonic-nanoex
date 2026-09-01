@@ -171,11 +171,12 @@ body{
 .time img:nth-child(1){
     height: 100px;
     width: auto;
+    position: absolute;
 }
 
 .time h1:nth-child(2), 
 .time h1:nth-child(3){
-    white-space: nowrap;
+    position: absolute;
     font-size: 35px;
     color:aliceblue;
     text-shadow: 
