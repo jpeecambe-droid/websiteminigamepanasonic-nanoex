@@ -172,7 +172,7 @@ body{
     height: 100px;
     width: auto;
     position: absolute;
-    transform: translateX(-0px);
+    transform: translateX(-30px);
 }
 
 .time h1:nth-child(2){
@@ -196,7 +196,7 @@ body{
      2px -2px 0 #000,
     -2px  2px 0 #000,
      2px  2px 0 #000;
-    transform: translate(150px,30px);
+    transform: translate(170px,30px);
 }
 
 .victoryscreen{
