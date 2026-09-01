@@ -46,7 +46,7 @@ function homebuttonfunction(){
 
 function randomizeGermPosition(spawngerm) {
     const spacerestriction = spawngamespace.getBoundingClientRect();
-    const germSize = 75px;
+    const germSize = 75;
     
     const maxX = spacerestriction.width - germSize;
     const maxY = spacerestriction.height - germSize - 100;
