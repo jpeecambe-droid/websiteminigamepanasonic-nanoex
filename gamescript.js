@@ -133,7 +133,7 @@ document.getElementById('timer').textContent = timemaxlimit;
 
 function updatetimer(){
     const timer = document.getElementById('timer')
-    const secs = String(seconds %60).padStart(2,'0');
+    const secs = String(seconds).padStart(2,'0');
     timer.textContent=`${secs}`;
     if(seconds > 0){
         seconds --;
