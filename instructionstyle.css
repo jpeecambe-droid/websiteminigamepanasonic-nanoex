@@ -162,7 +162,7 @@ body{
 .time{
     height: 100px;
     width: auto;
-    position: absolute;
+    display: flex;
     top: 30%;
     left: 48%;
     transform: translate(-50%,-50%);
@@ -171,34 +171,18 @@ body{
 .time img:nth-child(1){
     height: 100px;
     width: auto;
-    position: absolute;
 }
 
-.time h1:nth-child(2){
-    white-space: nowrap;
-    font-size: 35px;
-    color:aliceblue;
-    position: absolute;
-    text-shadow: 
-    -2px -2px 0 #000,  
-     2px -2px 0 #000,
-    -2px  2px 0 #000,
-     2px  2px 0 #000;
-    width: 240px;
-    transform: translate(40%,50%);
-}
-
+.time h1:nth-child(2), 
 .time h1:nth-child(3){
     white-space: nowrap;
     font-size: 35px;
     color:aliceblue;
-    position: absolute;
     text-shadow: 
     -2px -2px 0 #000,  
      2px -2px 0 #000,
     -2px  2px 0 #000,
      2px  2px 0 #000;
-    width: 340px;
     transform: translate(40%,50%);
 }
 
