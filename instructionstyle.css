@@ -162,7 +162,7 @@ body{
 .time{
     height: 100px;
     width: auto;
-    display: flex;
+    position: absolute;
     top: 30%;
     left: 48%;
     transform: translate(-50%,-50%);
