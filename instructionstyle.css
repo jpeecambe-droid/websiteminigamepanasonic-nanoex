@@ -174,8 +174,7 @@ body{
     position: absolute;
 }
 
-.time h1:nth-child(2), 
-.time h1:nth-child(3){
+.time h1:nth-child(2){
     position: absolute;
     font-size: 35px;
     color:aliceblue;
