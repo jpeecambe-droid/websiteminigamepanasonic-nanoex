@@ -18,7 +18,7 @@ document.getElementById('timelimit').textContent = timemaxlimit;
 function countdown(){
     const timer = document.getElementById('countdowntimer');
     const secs = String(seconds %60).padStart(2,'0');
-    timer.textContent=` ${secs} Seconds`;
+    timer.textContent=` ${secs}`;
         if(seconds > 0){
         seconds --;
     }
